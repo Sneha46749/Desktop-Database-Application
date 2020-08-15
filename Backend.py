@@ -47,7 +47,7 @@ def update(id,title,author,year,isbn):
 connect()  
 #insert("The Invisible man", "Chetan Bhagat", 2012, 1524834)  
 #delete(2)
-update(11,"The","John",2002, 2371912)
-print(view())
-print(search(author="Chetan Bhagat"))
+#update(11,"The","John",2002, 2371912)
+#print(view())
+#print(search(author="Chetan Bhagat"))
 
