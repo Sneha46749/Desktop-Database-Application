@@ -15,7 +15,7 @@ def get_selected_row(event):
         e4.delete(0,END)
         e4.insert(END,selected_tuple[4])
     except IndexError:
-        pass                #Do nothing
+        pass                
 
 def view_command():
     listbox1.delete(0,END)
